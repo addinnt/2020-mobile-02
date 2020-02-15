@@ -63,6 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="About Me"
+        android:textSize="15sp"
         android:textColor="#535151"
         android:fontFamily="@font/futura_pt_demibold"
         android:layout_marginTop="20dp"
@@ -85,9 +86,215 @@
         app:layout_constraintTop_toBottomOf="@id/tittle_about_me" />
 
     <ImageView
+        android:id="@+id/grey_line_full"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        />
+        android:background="@drawable/grey_line_full"
+        app:layout_constraintTop_toBottomOf="@id/content_about_me"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/label_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grey_line_full"/>
+
+    <TextView
+        android:id="@+id/content_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Addin Ninggar Tiastika"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grey_line_full"/>
+
+    <ImageView
+        android:id="@+id/grey_line_full_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/grey_line_full"
+        app:layout_constraintTop_toBottomOf="@id/content_name"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/label_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grey_line_full_2"/>
+
+    <TextView
+        android:id="@+id/content_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="addin@example.com"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grey_line_full_2"/>
+
+    <ImageView
+        android:id="@+id/grey_line_full_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/grey_line_full"
+        app:layout_constraintTop_toBottomOf="@id/content_email"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/label_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grey_line_full_3"/>
+
+    <TextView
+        android:id="@+id/content_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grey_line_full_3"/>
+
+    <ImageView
+        android:id="@+id/grey_line_full_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/grey_line_full"
+        app:layout_constraintTop_toBottomOf="@id/content_gender"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/label_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone No."
+        android:fontFamily="@font/futura_pt_demibold"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grey_line_full_4"/>
+
+    <TextView
+        android:id="@+id/content_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+628763526179"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grey_line_full_4"/>
+
+    <ImageView
+        android:id="@+id/grey_line_full_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/grey_line_full"
+        app:layout_constraintTop_toBottomOf="@id/content_phone"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/label_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grey_line_full_5"/>
+
+    <TextView
+        android:id="@+id/content_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Malang"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grey_line_full_5"/>
+
+    <ImageView
+        android:id="@+id/grey_line_full_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/grey_line_full"
+        app:layout_constraintTop_toBottomOf="@id/content_city"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/label_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grey_line_full_6"/>
+
+    <TextView
+        android:id="@+id/content_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jl. Soekarno-Hatta"
+        android:fontFamily="@font/futura_pt_demibold"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grey_line_full_6"/>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
